@@ -14,7 +14,10 @@ List<Doctor> Doctors = [
     consultationFees: 500,
     location: "Room 101, City Hospital",
     experience: 15,
-    patientReviews: ["Very knowledgeable", "Friendly and professional"],
+    patientReviews: [
+      "Dr. Verma was incredibly thorough during my consultation. He explained everything in detail and made sure I understood my condition and treatment options. His expertise is unmatched, and I felt reassured knowing I was in capable hands.",
+      "I had a wonderful experience with Dr. Manish Verma. Not only is he extremely knowledgeable, but he also took the time to listen to my concerns. He is very approachable and made me feel comfortable discussing my health issues."
+    ],
     bookingLink: "https://cityhospital.com/appointments/manish_verma",
   ),
   Doctor(
@@ -28,7 +31,10 @@ List<Doctor> Doctors = [
     consultationFees: 400,
     location: "Room 202, Sunshine Hospital",
     experience: 10,
-    patientReviews: ["Excellent care", "Very patient and understanding"],
+    patientReviews: [
+      "Dr. Verma was incredibly thorough during my consultation. He explained everything in detail and made sure I understood my condition and treatment options. His expertise is unmatched, and I felt reassured knowing I was in capable hands.",
+      "I had a wonderful experience with Dr. Manish Verma. Not only is he extremely knowledgeable, but he also took the time to listen to my concerns. He is very approachable and made me feel comfortable discussing my health issues."
+    ],
     bookingLink: "https://sunshinehospital.com/appointments/rashmi_sharma",
   ),
   Doctor(
@@ -42,7 +48,10 @@ List<Doctor> Doctors = [
     consultationFees: 600,
     location: "Room 303, Apollo Hospital",
     experience: 12,
-    patientReviews: ["Expert in his field", "Very approachable"],
+    patientReviews: [
+      "Dr. Verma was incredibly thorough during my consultation. He explained everything in detail and made sure I understood my condition and treatment options. His expertise is unmatched, and I felt reassured knowing I was in capable hands.",
+      "I had a wonderful experience with Dr. Manish Verma. Not only is he extremely knowledgeable, but he also took the time to listen to my concerns. He is very approachable and made me feel comfortable discussing my health issues."
+    ],
     bookingLink: "https://apollohospital.com/appointments/amit_singh",
   ),
   Doctor(
@@ -56,7 +65,10 @@ List<Doctor> Doctors = [
     consultationFees: 550,
     location: "Room 204, City Hospital",
     experience: 14,
-    patientReviews: ["Caring and compassionate", "Great listener"],
+    patientReviews: [
+      "Dr. Verma was incredibly thorough during my consultation. He explained everything in detail and made sure I understood my condition and treatment options. His expertise is unmatched, and I felt reassured knowing I was in capable hands.",
+      "I had a wonderful experience with Dr. Manish Verma. Not only is he extremely knowledgeable, but he also took the time to listen to my concerns. He is very approachable and made me feel comfortable discussing my health issues."
+    ],
     bookingLink: "https://cityhospital.com/appointments/priya_desai",
   ),
   Doctor(
@@ -70,7 +82,10 @@ List<Doctor> Doctors = [
     consultationFees: 500,
     location: "Room 305, Sunshine Hospital",
     experience: 9,
-    patientReviews: ["Excellent with kids", "Very knowledgeable"],
+    patientReviews: [
+      "Dr. Verma was incredibly thorough during my consultation. He explained everything in detail and made sure I understood my condition and treatment options. His expertise is unmatched, and I felt reassured knowing I was in capable hands.",
+      "I had a wonderful experience with Dr. Manish Verma. Not only is he extremely knowledgeable, but he also took the time to listen to my concerns. He is very approachable and made me feel comfortable discussing my health issues."
+    ],
     bookingLink: "https://sunshinehospital.com/appointments/rahul_mehta",
   ),
   Doctor(
@@ -84,7 +99,10 @@ List<Doctor> Doctors = [
     consultationFees: 450,
     location: "Room 101, Apollo Hospital",
     experience: 11,
-    patientReviews: ["Very professional", "Highly recommended"],
+    patientReviews: [
+      "Dr. Verma was incredibly thorough during my consultation. He explained everything in detail and made sure I understood my condition and treatment options. His expertise is unmatched, and I felt reassured knowing I was in capable hands.",
+      "I had a wonderful experience with Dr. Manish Verma. Not only is he extremely knowledgeable, but he also took the time to listen to my concerns. He is very approachable and made me feel comfortable discussing my health issues."
+    ],
     bookingLink: "https://apollohospital.com/appointments/neha_kapoor",
   ),
   Doctor(
@@ -98,7 +116,10 @@ List<Doctor> Doctors = [
     consultationFees: 700,
     location: "Room 102, City Hospital",
     experience: 18,
-    patientReviews: ["Expert in neurology", "Thorough and patient"],
+    patientReviews: [
+      "Dr. Verma was incredibly thorough during my consultation. He explained everything in detail and made sure I understood my condition and treatment options. His expertise is unmatched, and I felt reassured knowing I was in capable hands.",
+      "I had a wonderful experience with Dr. Manish Verma. Not only is he extremely knowledgeable, but he also took the time to listen to my concerns. He is very approachable and made me feel comfortable discussing my health issues."
+    ],
     bookingLink: "https://cityhospital.com/appointments/anil_gupta",
   ),
   Doctor(
@@ -112,7 +133,10 @@ List<Doctor> Doctors = [
     consultationFees: 650,
     location: "Room 203, Sunshine Hospital",
     experience: 13,
-    patientReviews: ["Very empathetic", "Highly skilled"],
+    patientReviews: [
+      "Dr. Verma was incredibly thorough during my consultation. He explained everything in detail and made sure I understood my condition and treatment options. His expertise is unmatched, and I felt reassured knowing I was in capable hands.",
+      "I had a wonderful experience with Dr. Manish Verma. Not only is he extremely knowledgeable, but he also took the time to listen to my concerns. He is very approachable and made me feel comfortable discussing my health issues."
+    ],
     bookingLink: "https://sunshinehospital.com/appointments/pooja_jain",
   ),
   Doctor(
@@ -126,7 +150,10 @@ List<Doctor> Doctors = [
     consultationFees: 600,
     location: "Room 306, Apollo Hospital",
     experience: 16,
-    patientReviews: ["Very professional", "Excellent care"],
+    patientReviews: [
+      "Dr. Verma was incredibly thorough during my consultation. He explained everything in detail and made sure I understood my condition and treatment options. His expertise is unmatched, and I felt reassured knowing I was in capable hands.",
+      "I had a wonderful experience with Dr. Manish Verma. Not only is he extremely knowledgeable, but he also took the time to listen to my concerns. He is very approachable and made me feel comfortable discussing my health issues."
+    ],
     bookingLink: "https://apollohospital.com/appointments/rakesh_bhatia",
   ),
   Doctor(
@@ -140,7 +167,10 @@ List<Doctor> Doctors = [
     consultationFees: 800,
     location: "Room 104, City Hospital",
     experience: 20,
-    patientReviews: ["Highly skilled", "Very compassionate"],
+    patientReviews: [
+      "Dr. Verma was incredibly thorough during my consultation. He explained everything in detail and made sure I understood my condition and treatment options. His expertise is unmatched, and I felt reassured knowing I was in capable hands.",
+      "I had a wonderful experience with Dr. Manish Verma. Not only is he extremely knowledgeable, but he also took the time to listen to my concerns. He is very approachable and made me feel comfortable discussing my health issues."
+    ],
     bookingLink: "https://cityhospital.com/appointments/sneha_patel",
   ),
 ];

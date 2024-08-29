@@ -31,9 +31,9 @@ class _HospitalDetailScreenState extends State<HospitalDetailScreen> {
     }
 
     return Scaffold(
-      backgroundColor: Colors.blue.shade50,
+      backgroundColor: const Color(0xFFE3F2FD),
       appBar: AppBar(
-        backgroundColor: Colors.blue.shade100,
+        backgroundColor: const Color(0xFFBBDEFB),
         title: Text(hospital!.name),
       ),
       body: SingleChildScrollView(
