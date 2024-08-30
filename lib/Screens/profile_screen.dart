@@ -1,15 +1,29 @@
 import 'package:flutter/material.dart'; 
 
-class ProfilePage extends StatefulWidget {
-  const ProfilePage({super.key});
+class ProfileScreen extends StatefulWidget {
+  const ProfileScreen({super.key});
 
   @override
-  State<ProfilePage> createState() => _ProfilePageState();
+  State<ProfileScreen> createState() => _ProfileScreenState();
 }
 
-class _ProfilePageState extends State<ProfilePage> {
+class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(),
+      body: const SingleChildScrollView(
+        child: Column(
+          children: [
+            CircleAvatar(
+              child: Center(child: Text('Image')),
+            ),
+            Text('Name'),
+            Text('+91 xxxxxxxxxx'),
+            Text('Ayushman Number'),
+          ],
+        ),
+      ),
+    );
   }
 }
