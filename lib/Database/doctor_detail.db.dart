@@ -1,4 +1,4 @@
-import 'package:project/model/doctor_model.dart';
+import 'package:project/models/doctor_model.dart';
 
 // List of Doctors with actual details
 // ignore: non_constant_identifier_names

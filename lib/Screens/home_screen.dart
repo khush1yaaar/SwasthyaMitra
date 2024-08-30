@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project/Database/hospital_detail_db.dart';
-import 'package:project/Screens/doctors_list_screen.dart';
-import 'package:project/Screens/hospital_detail_screen.dart';
+import 'package:project/screens/doctors_list_screen.dart';
+import 'package:project/screens/hospital_detail_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

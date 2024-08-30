@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:project/Database/hospital_detail_db.dart';
-import 'package:project/Screens/doctor_detail_screen.dart';
-import 'package:project/model/hospital_model.dart';
+import 'package:project/screens/doctor_detail_screen.dart';
+import 'package:project/models/hospital_model.dart';
 
 class HospitalDetailScreen extends StatefulWidget {
   final int hospitalID;

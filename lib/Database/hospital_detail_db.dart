@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project/Database/doctor_detail.db.dart';
-import 'package:project/model/hospital_model.dart';
+import 'package:project/database/doctor_detail.db.dart';
+import 'package:project/models/hospital_model.dart';
 
 List<Hospital> Hospitals = [
   Hospital(
