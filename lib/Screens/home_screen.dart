@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project/Database/hospital_detail_db.dart';
 import 'package:project/Screens/doctors_list_screen.dart';
 import 'package:project/Screens/hospital_detail_screen.dart';
 
@@ -64,9 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                     ),
                     const SizedBox(height: 10),
-                    _buildHospitalTile(context, 1),
-                    _buildHospitalTile(context, 2),
-                    _buildHospitalTile(context, 3),
+                    _buildHospitalList(),
                   ],
                 ),
               ),
@@ -76,6 +75,18 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+
+  Widget _buildHospitalList() {
+    return ListView.builder(
+      physics: const NeverScrollableScrollPhysics(),  // Prevent scrolling in this nested ListView
+      shrinkWrap: true,  // Let the ListView take as much space as it needs
+      itemCount: Hospitals.length,  // Use the length of the Hospitals list
+      itemBuilder: (context, index) {
+        return _buildHospitalTile(context, Hospitals[index].id);  // Dynamically create tiles for each hospital
+      },
+    );
+  }
+
 
   // Method to create doctor category cards
   Widget _buildDoctorCard(String title) {
@@ -121,7 +132,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Card(
         elevation: 2,
         child: ListTile(
-          title: Text('$hospitalID'),
+          title: Text(getHospitalById(hospitalID)!.name),
           trailing: const Icon(Icons.arrow_forward),
         ),
       ),
